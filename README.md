@@ -1,7 +1,7 @@
 # Лабораторийн ажил №1: UI автомат тест (Playwright)
 
 Нэр: Д.Нурсолтан 
-: В232270039
+Код: В232270039
 
 
 ## 1. Зорилго
@@ -73,4 +73,20 @@ placeholder-тай тул `getByPlaceholder` ашигласан.
 
 Эхний ажиллуулалтаар 8 тестийн 6 нь амжилттай, "системээс гарах" тест
 chromium, firefox дээр унасан:
+
+
+## Алхам 3: Assertions
+
+Файл: `tests/assertions.spec.ts`
+
+| № | Тест | Төрөл | Ашигласан assertion |
+|---|------|-------|---------------------|
+| 1 | Амжилттай нэвтрэх | Эерэг | toHaveURL, toHaveText, toBeVisible, toHaveCount |
+| 2 | Буруу нууц үг | Сөрөг | toHaveURL, toBeVisible, toContainText |
+| 3 | Хоосон талбар | Сөрөг | toHaveText |
+| 4 | Бараа сагслах | Нэвтэрсний дараах үйлдэл | toHaveText, toBeVisible, toHaveURL, toHaveCount |
+
+Playwright-ийн `expect` нь web-first assertion тул нөхцөл биелтэл автоматаар дахин
+шалгадаг. Иймд гараар `sleep` бичих шаардлагагүй.
+
 

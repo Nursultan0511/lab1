@@ -1,0 +1,13 @@
+
+Running 8 tests using 8 workers
+
+  ✓  1 [chromium] › tests/assertions.spec.ts:44:3 › Алхам 3: Assertions › нэвтэрсний дараа: бараа сагслах (1.3s)
+  ✓  4 [chromium] › tests/assertions.spec.ts:16:3 › Алхам 3: Assertions › амжилттай нэвтрэх: URL, гарчиг, бараа харагдах (1.4s)
+  ✓  8 [chromium] › tests/assertions.spec.ts:25:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: буруу нууц үг (1.4s)
+  ✓  3 [firefox] › tests/assertions.spec.ts:16:3 › Алхам 3: Assertions › амжилттай нэвтрэх: URL, гарчиг, бараа харагдах (2.1s)
+  ✓  5 [firefox] › tests/assertions.spec.ts:44:3 › Алхам 3: Assertions › нэвтэрсний дараа: бараа сагслах (2.1s)
+  ✓  7 [firefox] › tests/assertions.spec.ts:25:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: буруу нууц үг (2.1s)
+  ✓  6 [firefox] › tests/assertions.spec.ts:35:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: хоосон талбар (2.0s)
+  ✓  2 [chromium] › tests/assertions.spec.ts:35:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: хоосон талбар (6.9s)
+
+  8 passed (7.4s)

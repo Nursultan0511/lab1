@@ -1,0 +1,13 @@
+
+Running 8 tests using 8 workers
+
+  ✓  2 [chromium] › tests/final.spec.ts:20:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа сагслаад гарах (2.2s)
+  ✓  3 [chromium] › tests/final.spec.ts:25:3 › Алхам 5: Logout-оор төгсгөх, test isolation › сагс эхлэхдээ хоосон (өмнөх тестээс хамааралгүй) (2.3s)
+  ✓  7 [chromium] › tests/final.spec.ts:29:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа эрэмбэлэх (2.4s)
+  ✓  6 [chromium] › tests/final.spec.ts:34:3 › Алхам 5: Logout-оор төгсгөх, test isolation › logout хийсний дараа inventory руу шууд орох боломжгүй (2.4s)
+  ✓  4 [firefox] › tests/final.spec.ts:29:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа эрэмбэлэх (2.8s)
+  ✓  1 [firefox] › tests/final.spec.ts:34:3 › Алхам 5: Logout-оор төгсгөх, test isolation › logout хийсний дараа inventory руу шууд орох боломжгүй (3.4s)
+  ✓  8 [firefox] › tests/final.spec.ts:25:3 › Алхам 5: Logout-оор төгсгөх, test isolation › сагс эхлэхдээ хоосон (өмнөх тестээс хамааралгүй) (2.7s)
+  ✓  5 [firefox] › tests/final.spec.ts:20:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа сагслаад гарах (3.1s)
+
+  8 passed (4.9s)

@@ -93,18 +93,6 @@ Playwright-ийн `expect` нь web-first assertion тул нөхцөл биел
 
 ## Алхам 4: Codegen ба Trace viewer
 
-### Codegen
-`npx playwright codegen saucedemo.com -o tests/codegen.spec.ts` командаар нэвтрэх,
-сагслах үйлдлийг бичүүлсэн. Харьцуулалт:
-
-| Шинж | Codegen | Өөрийн бичсэн |
-|------|---------|----------------|
-| Locator | (codegen-ий сонгосныг энд бичнэ) | getByRole, getByPlaceholder, getByTestId |
-| Assertion | (байгаа/байхгүйг бичнэ) | toHaveURL, toHaveText, toBeVisible |
-| Бүтэц | Нэг урт тест | Тусдаа тестүүд, login() туслах функц |
-
-Дүгнэлт: Codegen нь эхний ноорог, locator олоход хурдан. Харин утга учиртай assertion-ыг
-өөрөө нэмж, давтагдах кодыг функц болгох шаардлагатай.
 
 ### Trace viewer
 `npx playwright test --trace on`-оор бүх тестийн trace бичсэн. Алхам бүрийн DOM snapshot,

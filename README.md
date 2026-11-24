@@ -127,3 +127,13 @@ Expected/Received зөрүүг шууд харуулсан нь Selenium-ийн 
 хөтөчүүд орчноос хамаарах хязгаарлалттай гэдгийг харуулсан. Selenium нь олон хэл,
 хуучин төслүүдэд өргөн дэмжлэгтэй хэвээр, харин шинэ төсөлд Playwright илүү хурдан
 эхэлж, дебаг хийхэд тохиромжтой гэж дүгнэв.
+
+### Санаатай унах тест
+
+`tests/fail.spec.ts` нь анхдагчаар skip болдог (энгийн ажиллуулалтыг эвдэхгүйн тулд).
+Унагаж trace авах:
+
+```bash
+RUN_FAIL_DEMO=1 npx playwright test tests/fail.spec.ts --project=chromium --trace on
+npx playwright show-trace docs/traces/trace-intentional-fail.zip
+```

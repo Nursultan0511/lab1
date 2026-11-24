@@ -1,0 +1,40 @@
+
+Running 34 tests using 8 workers
+
+  -   1 [chromium] › tests/fail.spec.ts:8:1 › санаатай унах тест
+  ✓   6 [chromium] › tests/codegen.spec.ts:3:1 › test (861ms)
+  ✓   9 [chromium] › tests/assertions.spec.ts:25:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: буруу нууц үг (1.0s)
+  ✓   5 [chromium] › tests/assertions.spec.ts:35:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: хоосон талбар (1.2s)
+  ✓   8 [chromium] › tests/assertions.spec.ts:16:3 › Алхам 3: Assertions › амжилттай нэвтрэх: URL, гарчиг, бараа харагдах (1.3s)
+  ✓   2 [chromium] › tests/assertions.spec.ts:44:3 › Алхам 3: Assertions › нэвтэрсний дараа: бараа сагслах (1.5s)
+  ✓   3 [chromium] › tests/example.spec.ts:3:1 › has title (1.6s)
+  ✓   4 [chromium] › tests/final.spec.ts:20:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа сагслаад гарах (2.2s)
+  ✓  15 [chromium] › tests/mytest.spec.ts:19:3 › Saucedemo › буруу нууц үгээр нэвтрэхэд алдаа харуулах (805ms)
+  ✓  14 [chromium] › tests/mytest.spec.ts:9:3 › Saucedemo › амжилттай нэвтрэх (1.1s)
+  ✓   7 [chromium] › tests/example.spec.ts:10:1 › get started link (2.9s)
+  ✓  10 [chromium] › tests/final.spec.ts:25:3 › Алхам 5: Logout-оор төгсгөх, test isolation › сагс эхлэхдээ хоосон (өмнөх тестээс хамааралгүй) (2.1s)
+  ✓  13 [chromium] › tests/label.spec.ts:3:1 › getByLabel: todo дуусгах (1.6s)
+  ✓  11 [chromium] › tests/final.spec.ts:29:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа эрэмбэлэх (2.0s)
+  ✓  16 [chromium] › tests/mytest.spec.ts:28:3 › Saucedemo › бараа сагсанд нэмж, захиалга хийх (1.2s)
+  ✓  12 [chromium] › tests/final.spec.ts:34:3 › Алхам 5: Logout-оор төгсгөх, test isolation › logout хийсний дараа inventory руу шууд орох боломжгүй (2.6s)
+  ✓  17 [chromium] › tests/mytest.spec.ts:53:3 › Saucedemo › системээс гарах (1.9s)
+  -  25 [firefox] › tests/fail.spec.ts:8:1 › санаатай унах тест
+  ✓  18 [firefox] › tests/assertions.spec.ts:16:3 › Алхам 3: Assertions › амжилттай нэвтрэх: URL, гарчиг, бараа харагдах (2.0s)
+  ✓  19 [firefox] › tests/assertions.spec.ts:25:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: буруу нууц үг (1.8s)
+  ✓  22 [firefox] › tests/codegen.spec.ts:3:1 › test (1.7s)
+  ✓  21 [firefox] › tests/assertions.spec.ts:44:3 › Алхам 3: Assertions › нэвтэрсний дараа: бараа сагслах (1.9s)
+  ✓  20 [firefox] › tests/assertions.spec.ts:35:3 › Алхам 3: Assertions › амжилтгүй нэвтрэх: хоосон талбар (2.0s)
+  ✓  23 [firefox] › tests/example.spec.ts:3:1 › has title (2.4s)
+  ✓  24 [firefox] › tests/example.spec.ts:10:1 › get started link (2.3s)
+  ✓  30 [firefox] › tests/label.spec.ts:3:1 › getByLabel: todo дуусгах (1.4s)
+  ✓  27 [firefox] › tests/final.spec.ts:25:3 › Алхам 5: Logout-оор төгсгөх, test isolation › сагс эхлэхдээ хоосон (өмнөх тестээс хамааралгүй) (2.4s)
+  ✓  28 [firefox] › tests/final.spec.ts:29:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа эрэмбэлэх (2.5s)
+  ✓  31 [firefox] › tests/mytest.spec.ts:9:3 › Saucedemo › амжилттай нэвтрэх (1.5s)
+  ✓  26 [firefox] › tests/final.spec.ts:20:3 › Алхам 5: Logout-оор төгсгөх, test isolation › бараа сагслаад гарах (3.0s)
+  ✓  29 [firefox] › tests/final.spec.ts:34:3 › Алхам 5: Logout-оор төгсгөх, test isolation › logout хийсний дараа inventory руу шууд орох боломжгүй (3.1s)
+  ✓  32 [firefox] › tests/mytest.spec.ts:19:3 › Saucedemo › буруу нууц үгээр нэвтрэхэд алдаа харуулах (1.6s)
+  ✓  33 [firefox] › tests/mytest.spec.ts:28:3 › Saucedemo › бараа сагсанд нэмж, захиалга хийх (1.8s)
+  ✓  34 [firefox] › tests/mytest.spec.ts:53:3 › Saucedemo › системээс гарах (2.3s)
+
+  2 skipped
+  32 passed (10.5s)
